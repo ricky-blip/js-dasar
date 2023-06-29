@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>Tipe Data Object</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.writeln(`Tipe Data Object`);
+        const person = {
+            //langsung
+            "nama" : "Ricky Aja!",
+            "umur" : 90
+        };
+        
+        document.writeln("</br>");
+        document.writeln(person);
+        document.writeln("</br>");
+
+        // //ubah attribute
+        // person["nama"] = "Ricky Rinaldy";
+        // person["umur"] = "26";
+
+        console.table(person);
+
+        console.info(`Nama : ${person.nama}`);
+        console.info(`Umur : ${person.umur}`);
+    </script>
+</body>
+</html>
